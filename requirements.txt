@@ -1,5 +1,6 @@
-# Final, compatible dependencies for Python on Render
-fastapi==0.116.1
+@'
+# Final, compatible dependencies for Python 3.13 on Render
+fastapi==0.111.0
 uvicorn==0.29.0
 python-multipart==0.0.9
 tensorflow==2.16.1
@@ -7,3 +8,4 @@ numpy==1.26.4
 scikit-learn==1.4.2
 opencv-python==4.9.0.80
 joblib==1.4.2
+'@ | Set-Content requirements.txt
