@@ -1,8 +1,9 @@
-# Final Dependencies for Deployment
+# Final, compatible dependencies for Python on Render
 fastapi==0.116.1
-uvicorn==0.35.0
-python-multipart==0.0.20
-tensorflow==2.20.0
-numpy==1.24.3
-opencv-python==4.12.0.88
-scikit-learn==1.7.2
+uvicorn==0.29.0
+python-multipart==0.0.9
+tensorflow==2.16.1
+numpy==1.26.4
+scikit-learn==1.4.2
+opencv-python==4.9.0.80
+joblib==1.4.2
