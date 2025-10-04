@@ -15,8 +15,8 @@ logger = logging.getLogger(__name__)
 
 # Get the directory where this script is located
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "ayurvedic_heuristic_model.keras")
-ENCODER_PATH = os.path.join(BASE_DIR, "label_encoder.pkl")
+MODEL_PATH = os.path.join(BASE_DIR, "models", "ayurvedic_heuristic_model.keras")
+ENCODER_PATH = os.path.join(BASE_DIR, "models", "label_encoder.pkl")
 IMAGE_SIZE = (224, 224)
 
 app = FastAPI(title="Ayurvedic Tongue Analysis API")
