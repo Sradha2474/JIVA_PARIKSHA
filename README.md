@@ -48,8 +48,8 @@ Follow these steps to run the API on your own machine.
 ### Prerequisites
 * Python 3.10 or 3.11
 * Git
-
-### 1. Clone the Repository
+  ###Steps to run this
+  1. Clone the Repository
 ```bash
 git clone [https://github.com/Sradha2474/JIVA_PARIKSHA.git](https://github.com/Sradha2474/JIVA_PARIKSHA.git)
 cd JIVA_PARIKSHA/api_deployment
